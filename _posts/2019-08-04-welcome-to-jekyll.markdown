@@ -6,7 +6,9 @@ categories: sprints
 ---
 
 Project #2: Taking Steps
+
 Team Members: Flinn Tiddy & Joon Lee
+
 Sprint length: 1 Week
 
 Picking up Taking steps from semester one will be a lot of work as we didn’t make as near as much progress, I would have liked but am looking forward to the challenge. Straight away we had a meeting with Grayson our project manager. We sorted out what has priority and what needs to get done ASAP as we want this application completely finished and uploaded to both app stores by the end of the year.
@@ -20,14 +22,15 @@ Aspects I’m going to improve on:
 We decided on our first feature to add would be a database as we currently don’t have one at all. With a database we will be able to create users, handle sign up, store users data and more. Firebase was selected as our database infrastructure.
 My tickets this sprint were to create/design the login and sign up page both with full validation giving feedback to the user and hook the signup and login once Joon had finished the initial set up of firebase into the app.
 
+<br/><br/>
 
 ![](/assets/week1_2.JPG)
 
-This semester will be using gitlabs inbuilt issue system compared to project #1 where a trello board was used instead. This screenshot displays sprint #1’s tickets and multiple other tickets we have created to be completed in the future. Personally, I think gitlab as a much better approach compared to trello as Adon and Grayson can easily keep track of how we are progressing as well.
+This semester will be using gitlabs inbuilt issue system compared to project #1 where a trello board was used instead. This screenshot displays sprint #1’s tickets and multiple other tickets we have created to be completed in the future. Personally, I think gitlab as a much better approach compared to trello as Adon and Grayson can easily keep track of how we are progressing as well. <br/><br/>
 
 ![](/assets/week2_1_2.JPG)
 
-I created a simple login page with a placeholder logo I sourced from google images, I had to mess around with the app navigator in our App.js file to redirect this page as the starting screen. At this stage this page is purely looks apart from the signup button navigating to the sign-up page.
+I created a simple login page with a placeholder logo I sourced from google images, I had to mess around with the app navigator in our App.js file to redirect this page as the starting screen. At this stage this page is purely looks apart from the signup button navigating to the sign-up page. <br/><br/>
 
 ![](/assets/week2_1.JPG)
 
@@ -65,5 +68,6 @@ After some research into firebase authentication I wrote a small method into our
 
 Above is evidence of users being stored into the new authentication table provided by firebase.
 
-Reflections on Sprint #1:
+**Reflections on Sprint #1:**
+
 I think this sprint went very well for being the first sprint back. It was relativity short and I hope to increase the length and workload of sprints to possibly two weeks in the future. At the moment I think I set a good pace for myself and hope to carry it on. Teamwork and communication with Joon was very good and we completed everything we set out to do for this sprint. We need to set up the Testing branch for next sprint for better work flow.
