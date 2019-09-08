@@ -5,4 +5,65 @@ date:   2019-07-29 22:26:40 +1200
 categories: sprints
 ---
 
-testses
+Project #2: Taking Steps
+Team Members: Flinn Tiddy & Joon Lee
+Sprint length: 1 Week
+
+Picking up Taking steps from semester one will be a lot of work as we didn’t make as near as much progress, I would have liked but am looking forward to the challenge. Straight away we had a meeting with Grayson our project manager. We sorted out what has priority and what needs to get done ASAP as we want this application completely finished and uploaded to both app stores by the end of the year.
+
+Aspects I’m going to improve on:
+*	Motivation
+*	Take on a greater work load
+*	Git flow (Merging, branching etc)
+*	Better knowledge in react
+
+We decided on our first feature to add would be a database as we currently don’t have one at all. With a database we will be able to create users, handle sign up, store users data and more. Firebase was selected as our database infrastructure.
+My tickets this sprint were to create/design the login and sign up page both with full validation giving feedback to the user and hook the signup and login once Joon had finished the initial set up of firebase into the app.
+
+
+![](/assets/week1_2.JPG)
+
+This semester will be using gitlabs inbuilt issue system compared to project #1 where a trello board was used instead. This screenshot displays sprint #1’s tickets and multiple other tickets we have created to be completed in the future. Personally, I think gitlab as a much better approach compared to trello as Adon and Grayson can easily keep track of how we are progressing as well.
+
+![](/assets/week2_1_2.JPG)
+
+I created a simple login page with a placeholder logo I sourced from google images, I had to mess around with the app navigator in our App.js file to redirect this page as the starting screen. At this stage this page is purely looks apart from the signup button navigating to the sign-up page.
+
+![](/assets/week2_1.JPG)
+
+I continued the same theme on the sign up page but was unsure on what information we exactly wanted from the user at this stage resulting in me simply asking for email, first and last name and password for now. This can easily be expanded in the future. I used a keyboard avoiding view to ensure the keyboard didn’t cover the text inputs so the user could see what they were exactly typing.
+ 
+![](/assets/Week2_3.JPG)
+
+One thing Grayson made clear was that validation was a must for the sign up page to avoid user’s using values that were out of bounds. Above is the example of the regex check I ran against the users email input. It tests to see if there is a @ symbol and a ‘.co, .com .nz etc’ used and returns the true if it matches. I did these checks on all user inputs and forced the user to have first name and last name at least 1 character long. Password was set to a minimum of 8 characters. If the check failed the application displayed a alert box with a message informing the user why it failed and let me them try again.
+
+![](/assets/Alertpassworderror.JPG)
+
+Above is an example output if the user fails validation of their password being too short when trying to sign up.
+
+![](/assets/commits.JPG)
+
+As I’m trying to improve my Git usage I committed my branch very frequently at many stages to all for good documentation and proof of me working through my tickets.
+
+![](/assets/gettingdocsuptodate.JPG)
+
+To improve documentation, I also started to comment on every ticket and log what stage I am at, weather it be complete, part way through etc. I believe this is important as it keeps Joon in the loop and will notify him of my progress as I go.
+
+![](/assets/mergedintomaster.JPG)
+
+I created a merge request and completed it to move my new features into our master branch. Looking back at this we need to create a staging branch to push our fixes to before we push to master for a better workflow. Grayson should review our sprint and decide if our work is to high effort standard to be pushed to master.
+
+![](/assets/Firebase.JPG)
+
+Joon got firebase functioning so I went ahead and linked up the signup page to create new records into our database, above is a screenshot of our real-time database will users records that I was testing with. The next step is to research authentication to allow functionally of the log in page.
+
+![](/assets/authcreate.jpg)
+
+After some research into firebase authentication I wrote a small method into our sign up page which creates a user record in a separate authentication database on our firebase project. Users are able to login now with their email and password they created on the sign up page if it passed validation.
+ 
+![](/assets/auth.JPG)
+
+Above is evidence of users being stored into the new authentication table provided by firebase.
+
+Reflections on Sprint #1:
+I think this sprint went very well for being the first sprint back. It was relativity short and I hope to increase the length and workload of sprints to possibly two weeks in the future. At the moment I think I set a good pace for myself and hope to carry it on. Teamwork and communication with Joon was very good and we completed everything we set out to do for this sprint. We need to set up the Testing branch for next sprint for better work flow.
