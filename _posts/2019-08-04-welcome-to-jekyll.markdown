@@ -7,7 +7,7 @@ categories: sprints
 
 Project #2: Taking Steps
 
-Team Members: Flinn Tiddy & Joon Lee
+Author: Flinn Tiddy
 
 Sprint length: 1 Week
 
@@ -26,7 +26,9 @@ My tickets this sprint were to create/design the login and sign up page both wit
 
 ![](/assets/week1_2.JPG)
 
-This semester will be using gitlabs inbuilt issue system compared to project #1 where a trello board was used instead. This screenshot displays sprint #1’s tickets and multiple other tickets we have created to be completed in the future. Personally, I think gitlab as a much better approach compared to trello as Adon and Grayson can easily keep track of how we are progressing as well. <br/><br/>
+This semester will be using gitlabs inbuilt issue system compared to project #1 where a trello board was used instead. This screenshot displays sprint #1’s tickets and multiple other tickets we have created to be completed in the future. Personally, I think gitlab as a much better approach compared to trello as Adon and Grayson can easily keep track of how we are progressing as well. 
+
+<br/><br/>
 
 ![](/assets/week2_1_2.JPG)
 
