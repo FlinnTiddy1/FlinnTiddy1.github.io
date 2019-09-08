@@ -32,43 +32,63 @@ This semester will be using gitlabs inbuilt issue system compared to project #1 
 
 ![](/assets/week2_1_2.JPG)
 
-I created a simple login page with a placeholder logo I sourced from google images, I had to mess around with the app navigator in our App.js file to redirect this page as the starting screen. At this stage this page is purely looks apart from the signup button navigating to the sign-up page. <br/><br/>
+I created a simple login page with a placeholder logo I sourced from google images, I had to mess around with the app navigator in our App.js file to redirect this page as the starting screen. At this stage this page is purely looks apart from the signup button navigating to the sign-up page.
+
+<br/><br/>
 
 ![](/assets/week2_1.JPG)
 
 I continued the same theme on the sign up page but was unsure on what information we exactly wanted from the user at this stage resulting in me simply asking for email, first and last name and password for now. This can easily be expanded in the future. I used a keyboard avoiding view to ensure the keyboard didn’t cover the text inputs so the user could see what they were exactly typing.
+
+<br/><br/>
  
 ![](/assets/Week2_3.JPG)
 
 One thing Grayson made clear was that validation was a must for the sign up page to avoid user’s using values that were out of bounds. Above is the example of the regex check I ran against the users email input. It tests to see if there is a @ symbol and a ‘.co, .com .nz etc’ used and returns the true if it matches. I did these checks on all user inputs and forced the user to have first name and last name at least 1 character long. Password was set to a minimum of 8 characters. If the check failed the application displayed a alert box with a message informing the user why it failed and let me them try again.
 
+<br/><br/>
+
 ![](/assets/Alertpassworderror.JPG)
 
 Above is an example output if the user fails validation of their password being too short when trying to sign up.
+
+<br/><br/>
 
 ![](/assets/commits.JPG)
 
 As I’m trying to improve my Git usage I committed my branch very frequently at many stages to all for good documentation and proof of me working through my tickets.
 
+<br/><br/>
+
 ![](/assets/gettingdocsuptodate.JPG)
 
 To improve documentation, I also started to comment on every ticket and log what stage I am at, weather it be complete, part way through etc. I believe this is important as it keeps Joon in the loop and will notify him of my progress as I go.
+
+<br/><br/>
 
 ![](/assets/mergedintomaster.JPG)
 
 I created a merge request and completed it to move my new features into our master branch. Looking back at this we need to create a staging branch to push our fixes to before we push to master for a better workflow. Grayson should review our sprint and decide if our work is to high effort standard to be pushed to master.
 
+<br/><br/>
+
 ![](/assets/Firebase.JPG)
 
 Joon got firebase functioning so I went ahead and linked up the signup page to create new records into our database, above is a screenshot of our real-time database will users records that I was testing with. The next step is to research authentication to allow functionally of the log in page.
 
+<br/><br/>
+
 ![](/assets/authcreate.jpg)
 
 After some research into firebase authentication I wrote a small method into our sign up page which creates a user record in a separate authentication database on our firebase project. Users are able to login now with their email and password they created on the sign up page if it passed validation.
+
+<br/><br/>
  
 ![](/assets/auth.JPG)
 
 Above is evidence of users being stored into the new authentication table provided by firebase.
+
+<br/><br/>
 
 **Reflections on Sprint #1:**
 
