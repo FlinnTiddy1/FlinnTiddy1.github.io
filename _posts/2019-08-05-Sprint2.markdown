@@ -5,11 +5,11 @@ date:   2019-08-05 22:26:40 +1200
 categories: sprints
 ---
 
-Project #2: Taking Steps
+**Project #2: Taking Steps**
 
-Author: Flinn Tiddy
+**Author: Flinn Tiddy**
 
-Sprint length: 1 Week And A Half
+**Sprint length: 1 Week And A Half**
 
 Sprint 1 was a success in my opinion, and I hope to carry this pace onto sprint 2. On the Monday Joon and I once again planned another sprint and Grayson suggested we set the time limit for a week and a half. 
 
@@ -17,7 +17,7 @@ Grayson was pleased with my work but wanted more validation on the login, signup
 
 Joon and I also discussed our GitHub work flow and created a system to ensure our development is effective and redundant in case we compromise our master branch of the project.
 
-New Workflow: 
+**New Workflow:** 
 1.	Choose tickets for sprint
 2.	Create branch for current ticket being worked on
 3.	Document progress on ticket page
@@ -67,7 +67,7 @@ Two screenshots above is the feedback I supply to the user when they fail valida
 
 ![](/assets/feature13doc.jpg)
 
-I continued to document my progress on tickets for good communication with Joon.
+I continued to document my progress on tickets to keep communication up with Joon Lee.
 
 <br/><br/>
 <br/><br/>
@@ -116,7 +116,7 @@ I started with getting a functioning timer first with start, pause and reset but
 
 ![](/assets/earlydesign.JPG) | ![](/assets/deisgn2.JPG) | ![](/assets/Timer.jpg)
 
-Above you can see my design process of creating the timer interface. I sectioned the page up into two, the bottom buttons and real-time statistics. I used the row property in my style sheet to lay them out evenly and used 33% width to break up the steps, duration and distance stats.
+Above you can see my design process of creating the timer interface. I sectioned the page up into two, the bottom buttons and real-time statistics. I used the row property in my style sheet to lay them out evenly and used 33% width to break up the steps, duration and distance stats. I used a library called "TimeFormatter" to format the time into MM:SS:MS, this was extermely as all it takes is passing the variable into the TimeFormatter object.
 
 <br/><br/>
 <br/><br/>
