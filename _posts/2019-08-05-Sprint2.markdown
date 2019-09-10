@@ -65,7 +65,7 @@ Two screenshots above is the feedback I supply to the user when they fail valida
 <br/><br/>
 <br/><br/>
 
-![](/assets/Feature13doc.jpg)
+![](/assets/feature13doc.jpg)
 
 I continued to document my progress on tickets for good communication with Joon.
 
