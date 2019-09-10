@@ -114,7 +114,7 @@ I started with getting a functioning timer first with start, pause and reset but
 <br/><br/>
 <br/><br/>
 
-![](/assets/earlydesign.png)
+![](/assets/earlydesign.JPG) | ![](/assets/deisgn2.JPG)
 
 Above you can see my design process of creating the timer interface. I sectioned the page up into two, the bottom buttons and real-time statistics. I used the row property in my style sheet to lay them out evenly and used 33% width to break up the steps, duration and distance stats.
 
