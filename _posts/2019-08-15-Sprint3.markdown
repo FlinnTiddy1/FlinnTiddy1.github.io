@@ -4,3 +4,49 @@ title:  "Sprint #3 - 1.5 Week Length"
 date:   2019-08-15 22:26:40 +1200
 categories: sprints
 ---
+
+**Project #2: Taking Steps**
+
+**Author: Flinn Tiddy**
+
+**Sprint length: 1 Week And A Half**
+
+
+Coming off another successful sprint for myself I planned to keep momentum up and complete a lot of major work in sprint #3. During plan we decided to do another week and a half sprint.
+ I choose a total of 3 tickets to complete with the main one being getting tracking working on the react native maps. Calculating the distance the user walks in a walk/run activity would follow suit once I could track where they had been. The smaller ticket was change the whole app design to my new colour scheme I created in a previous sprint.
+
+Board3.jpg
+This sprints tickets are features 1, 15 and 16 with Feature 1 being the most complex followed by 16 and finally 15.
+
+Feature15.jpg 
+This feature wasn’t very complex to complete just took me some time perfecting all the layouts while trying to allow all devices to scale the elements according to screen size. I used my emulator to test for new larger sized screens and a physical device supplied by Otago Polytechnic for older smaller screens. Some of the pages still yet to have content on them which made this task easier as well.
+
+Layout1 layout2 layout3 layout4 layout5
+
+Due to me currently taking multimedia I had just learnt about colour theory and the meaning behind colours and how it can influence people. When designing the colour scheme, I wanted simple colour palette with one main controlling colour. I just yellowy gold because it was bold commanding colour which represented warmth, energy, positivity, happiness hope and fun which I think all relate to the purpose of Taking Steps (weight loss).  If Leon dislikes the colour this can be easily changed in the future.
+
+
+Feature1.jpg
+Starting this feature was slightly intimidated as I knew this was going to be one of the hardest tickets in the application, but I was up for the challenge. I began by researching online for existing resources. I didn’t find a whole lot another than one tutorial that was like the task I was trying to achieve.   
+
+
+
+
+
+startingTracking.png 
+I wrote majority of my tracking code in my start tracking function with the incorporation of geo locations watchPosition method. This method became extremely useful as it ran a block of code every time the longitude or latitude of the users position received by GPS or WIFI changed. I had a list of route coordinates that I added to each time the user moved. The route coordinates list was responsible for drawing the polyline onto the google map.
+
+Track1 track2 track3 
+The screenshots above are examples of the tracking displaying the route I took during testing. I Had some major issues when dealing with geolocation library, I found geolocation to be extremely buggy and temperamental when trying to receive new longitude and latitudes.  Testing was also a hard factor when completing this ticket as every time I wanted to test my new code I had to disconnect from my environment and physically move the phone around the streets. This was extremely time consuming and dragged this ticket out longer than I would have liked. iPhone emulators have an inbuilt highway function that emulates a drive on a highway updating the long and lat of the phone. Sadly, android studio doesn’t supply this feature in their emulators which would have saved me hours. Another issue I had to overcome was the enableHighAccuracy, timeout, maxiumAge and distanceFilter parameters. These all caused me a headache as they all functioned differently depending on the hardware spec of the phone. Newer phones would send out their updated location at a faster rate compared to older phones which meant I needed to find the right balance for timeout and maximum age. enableHIghAccuracy parameter caused an issue as old phone’s weren’t capable of this and caused error’s when trying to receive the user’s current position. After figuring out each problem the tracking works and plots the users pervious route when the start button is pressed. Although I personally think I should revisit this at a later stage and polish the code. 
+
+Feature1doc.JPG
+
+
+
+
+
+
+
+
+
+
