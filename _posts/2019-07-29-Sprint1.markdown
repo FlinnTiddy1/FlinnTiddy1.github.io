@@ -22,6 +22,8 @@ Aspects I’m going to improve on:
 We decided on our first feature to add would be a database as we currently don’t have one at all. With a database we will be able to create users, handle sign up, store users data and more. Firebase was selected as our database infrastructure.
 My tickets this sprint were to create/design the login and sign up page both with full validation giving feedback to the user and hook the signup and login once Joon had finished the initial set up of firebase into the app.
 
+As a Project two student I will be helping out the new members to the mobile project group with anything they need from setting up react or just any overall questions in the course.
+
 <br/><br/>
 <br/><br/>
 
@@ -98,6 +100,11 @@ After some research into firebase authentication I wrote a small method into our
 ![](/assets/auth.JPG)
 
 Above is evidence of users being stored into the new authentication table provided by firebase.
+
+<br/><br/>
+<br/><br/>
+
+I also helped some of the project #1 students set up their enviroments for react native as I remember having alot of issues myself at the start of this year aswell. Some choose to use EXPO and other choose to use the CLI which is the same enviroment as our project. I pointed them in the right direction to the tutorial I followed a few months ago and let me them know if they had any questions don't be scared to just ask!
 
 <br/><br/>
 <br/><br/>
