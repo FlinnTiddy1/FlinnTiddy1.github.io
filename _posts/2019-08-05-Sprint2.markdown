@@ -10,3 +10,145 @@ Project #2: Taking Steps
 Author: Flinn Tiddy
 
 Sprint length: 1 Week And A Half
+
+Sprint 1 was a success in my opinion, and I hope to carry this pace onto sprint 2. On the Monday Joon and I once again planned another sprint and Grayson suggested we set the time limit for a week and a half. 
+
+Grayson was pleased with my work but wanted more validation on the login, signup and edit detail pages. I decided to take on one of major tickets this sprint with implementing the timer with play, stop and pause functions to allow the user to start an activity. This will be incorporated into our ‘Walking’ page with google maps I added last semester.
+
+Joon and I also discussed our GitHub work flow and created a system to ensure our development is effective and redundant in case we compromise our master branch of the project.
+
+New Workflow: 
+1.	Choose tickets for sprint
+2.	Create branch for current ticket being worked on
+3.	Document progress on ticket page
+4.	Commit all work to branch until completion
+5.	Document ticket complete
+6.	Merge ticket into Testing branch
+7.	Create merge request at end of sprint for Testing to Master, Assign to Grayson Orr
+8.	If Grayson approves code and merge request, close ticket.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/board.png)
+
+Once again we use GitLab’s inbuilt board system to plan sprint two’s work load. My tickets are Feature 2, 13 and 14.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/Feature13.png)
+
+The first ticket I tackled was additional validation. Grayson wanted more feedback to the user if their input failed the validation check, he suggested a red highlight on the failed field. I also only asked the password once on the sign-up page, this was bad idea as the user could enter their password incorrectly as they were only asked once. Too fix this I added a confirm password input and tested if both passwords matched for validation.
+ 
+<br/><br/>
+<br/><br/>
+
+![](/assets/Confirmpassword.png) | ![](/assets/avoidingview.png)
+
+Above is a screenshot of the additional field added into the sign up page and another screen of the keyboard avoiding view in action pushing all the text inputs up allowing the user to be able to see what they are typing instead of the mobile keyboard covering them.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/Tenarystatement.png)
+
+Above is the ternary statement I used to switch the styling of the text input depending on the validation status. This took a lot of research to eventually get working as there was poor documentation of validation styling and I didn’t want to install another package to our project.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/Highlight2.png) | ![](/assets/highlightinput.png)
+
+Two screenshots above is the feedback I supply to the user when they fail validation, the alert lets the user know what they failed on and why and finally the text input is highlighted to help direct the user.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/Feature13doc.png)
+
+I continued to document my progress on tickets for good communication with Joon.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/Feature14ticket.jpg)
+
+My second ticket to work on was validation of the Edit details page. The edit details page was created by Joon and allowed the user to update details such as weight, height, gender and more. 
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/Oldeditdetails.png) | ![](/assets/editDetails.png)
+
+The old page had the old colour scheme and design so I decided while I was working on this page to update the design at the same time. I used the same colour scheme of yellow, white and grey to improve the visual aesthetic. I added regex checks to all fields limiting height and weight to only accepting a number, gender only accepting male or female and date of birth accepting DD/MM/YYYY format only. All fields provide feedback to the user via the red border and alert dialogs.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/Feature14doc.png)
+
+Logging my progression with feature 14 and letting know if any extra work was done like the design of the screen.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/Feature2.jpg)
+
+My final ticket for the sprint was the biggest and most important, developing the interface buttons and timer component.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/strava.png)
+
+I did some research on other existing applications in the same market providing the same or close to the same purpose as Taking Steps. Strava is the market leader in fitness app’s and I drew some inspiration from their design. The map was already existing I just needed to plan how I would develop the buttons and real time statistics.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/timercode.png)
+
+I started with getting a functioning timer first with start, pause and reset buttons wired up. I found a lot of resources online to help with this and most tutorials recommended using the inbuilt Date.now function. I had to be careful how often I ran this function if it ran too often (5 milliseconds for example) mobile devices couldn’t keep up and began to lag. I found a sweet spot of running every 160-200 milliseconds.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/earlydesign.png) | ![](/assets/design2.jpg) | ![](/assets/timer.png)
+
+Above you can see my design process of creating the timer interface. I sectioned the page up into two, the bottom buttons and real-time statistics. I used the row property in my style sheet to lay them out evenly and used 33% width to break up the steps, duration and distance stats.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/ButtonsStyleDisable.png)
+
+I incorporated a disabled style for the circle buttons for cases when the buttons shouldn’t be able to be pressed. I once again used a ternary statement to control this and changed states in the timer functions to control when the buttons are active or disabled. This allowed me to control the user more and set bounds to avoid them breaking the app.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/Timedoc.png)
+
+Above is another example keeping my ticket documentation up to date and crossing out tasks as I complete them. 
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/MergedIntoMaster2.JPG)
+
+Screenshot above is proof of us carrying out new workflow, all my branches were merged into Testing and Grayson reviewed my code. Personally, I think this system is extremely good as its similar to a real world job situation having multiple people look over your code before it reaches the live project. Grayson approved all my code and allowed the merge into master.
+
+<br/><br/>
+<br/><br/>
+
+**Helping Project #1 Students:**
+One of the project 1 mobile projects is also an exercise app which is very similar to Taking Steps. I helped Carthur set up react native maps as he was having trouble obtaining a google maps API key. I showed him where to source one from for free and where to place it in his project. 
+
+<br/><br/>
+<br/><br/>
+
+**Reflections:**
+This sprint was a major success for myself and I’m very happy with the amount of work I got completed. The application is starting to finally take shape with the addition of the timer interface. In a few weeks I think it would be best to meet up with Leon to get this opinion on our progression and see if there any features we haven’t already got noted on. We are quickly ticking off features and will finish the application by the end of this year if I keep this pace.
+
+
