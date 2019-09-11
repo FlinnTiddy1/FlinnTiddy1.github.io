@@ -50,7 +50,7 @@ Starting this feature was slightly intimidated as I knew this was going to be on
 <br/><br/>
 <br/><br/>
 
-![](/assets/startingTracking.jpg) 
+![](/assets/startTracking.jpg) 
 
 I wrote majority of my tracking code in my start tracking function with the incorporation of geo locations watchPosition method. This method became extremely useful as it ran a block of code every time the longitude or latitude of the users position received by GPS or WIFI changed. I had a list of route coordinates that I added to each time the user moved. The route coordinates list was responsible for drawing the polyline onto the google map.
 
@@ -66,7 +66,7 @@ The screenshots above are examples of the tracking displaying the route I took d
 
 ![](/assets/feature1doc.jpg)
 
-Commented on feature 1 ticket with information on how the tracking works according to each button press. Add these details to help Joon understand how the application now works with the new feature.
+Commented on feature 1 ticket with information on how the tracking works according to each button press. Added these details to help Joon understand how the application now works with the new feature.
 
 <br/><br/>
 <br/><br/>
