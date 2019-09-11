@@ -9,44 +9,106 @@ categories: sprints
 
 **Author: Flinn Tiddy**
 
+**Sprint Number: #3**
+
 **Sprint length: 1 Week And A Half**
 
 
-Coming off another successful sprint for myself I planned to keep momentum up and complete a lot of major work in sprint #3. During plan we decided to do another week and a half sprint.
- I choose a total of 3 tickets to complete with the main one being getting tracking working on the react native maps. Calculating the distance the user walks in a walk/run activity would follow suit once I could track where they had been. The smaller ticket was change the whole app design to my new colour scheme I created in a previous sprint.
+Coming off another successful sprint for myself I planned to keep momentum up and complete a lot of major work in sprint #3. During planning we decided to do another week and a half sprint.
 
-Board3.jpg
+
+I choose a total of 3 tickets to complete with the main one being getting tracking working on the react native maps. Calculating the distance the user walks in a walk/run activity would follow suit once I could track where they had been. The smaller ticket was change the whole app design to my new colour scheme I created in a previous sprint.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/board3.jpg)
+
 This sprints tickets are features 1, 15 and 16 with Feature 1 being the most complex followed by 16 and finally 15.
 
-Feature15.jpg 
+<br/><br/>
+<br/><br/>
+
+![](/assets/feature15.jpg)
+
 This feature wasn’t very complex to complete just took me some time perfecting all the layouts while trying to allow all devices to scale the elements according to screen size. I used my emulator to test for new larger sized screens and a physical device supplied by Otago Polytechnic for older smaller screens. Some of the pages still yet to have content on them which made this task easier as well.
 
-Layout1 layout2 layout3 layout4 layout5
+<br/><br/>
+<br/><br/>
+
+![](/assets/layout1.jpg) | ![](/assets/layout2.jpg) | ![](/assets/layout3.jpg) | ![](/assets/layout4.jpg) | ![](/assets/layout5.jpg)
 
 Due to me currently taking multimedia I had just learnt about colour theory and the meaning behind colours and how it can influence people. When designing the colour scheme, I wanted simple colour palette with one main controlling colour. I just yellowy gold because it was bold commanding colour which represented warmth, energy, positivity, happiness hope and fun which I think all relate to the purpose of Taking Steps (weight loss).  If Leon dislikes the colour this can be easily changed in the future.
 
+<br/><br/>
+<br/><br/>
 
-Feature1.jpg
+![](/assets/feature1.jpg)
+
 Starting this feature was slightly intimidated as I knew this was going to be one of the hardest tickets in the application, but I was up for the challenge. I began by researching online for existing resources. I didn’t find a whole lot another than one tutorial that was like the task I was trying to achieve.   
 
+<br/><br/>
+<br/><br/>
 
+![](/assets/startingTracking.jpg) 
 
-
-
-startingTracking.png 
 I wrote majority of my tracking code in my start tracking function with the incorporation of geo locations watchPosition method. This method became extremely useful as it ran a block of code every time the longitude or latitude of the users position received by GPS or WIFI changed. I had a list of route coordinates that I added to each time the user moved. The route coordinates list was responsible for drawing the polyline onto the google map.
 
-Track1 track2 track3 
+<br/><br/>
+<br/><br/>
+
+![](/assets/track1.jpg) | ![](/assets/track2.jpg) | ![](/assets/track3.jpg)
+
 The screenshots above are examples of the tracking displaying the route I took during testing. I Had some major issues when dealing with geolocation library, I found geolocation to be extremely buggy and temperamental when trying to receive new longitude and latitudes.  Testing was also a hard factor when completing this ticket as every time I wanted to test my new code I had to disconnect from my environment and physically move the phone around the streets. This was extremely time consuming and dragged this ticket out longer than I would have liked. iPhone emulators have an inbuilt highway function that emulates a drive on a highway updating the long and lat of the phone. Sadly, android studio doesn’t supply this feature in their emulators which would have saved me hours. Another issue I had to overcome was the enableHighAccuracy, timeout, maxiumAge and distanceFilter parameters. These all caused me a headache as they all functioned differently depending on the hardware spec of the phone. Newer phones would send out their updated location at a faster rate compared to older phones which meant I needed to find the right balance for timeout and maximum age. enableHIghAccuracy parameter caused an issue as old phone’s weren’t capable of this and caused error’s when trying to receive the user’s current position. After figuring out each problem the tracking works and plots the users pervious route when the start button is pressed. Although I personally think I should revisit this at a later stage and polish the code. 
 
-Feature1doc.JPG
+<br/><br/>
+<br/><br/>
 
+![](/assets/feature1doc.jpg)
 
+Commented on feature 1 ticket with information on how the tracking works according to each button press. Add these details to help Joon understand how the application now works with the new feature.
 
+<br/><br/>
+<br/><br/>
 
+![](/assets/feature16.jpg)
 
+My final ticket to complete for sprint 3 was to calculate the distance of the user’s activity in real-time. This was relatively straight forward as I now can read the longitude and latitude as the user moves around the streets from my tracking work. This meant I could simply work out the distance between those two points and add to a total distance travelled variable. I began to do some research on mathematic formulas to achieve this.
 
+<br/><br/>
+<br/><br/>
 
+![](/assets/harersine.jpg) | ![](/assets/harersinefunc.jpg)
+
+I decided to use the haversine formula to calculate the distance travelled, luckily I found a NPM package that supply this for react native. I went ahead and npm installed this and imported it into my the ‘Walking Page’. I wrote a short function that sourced the previous longitude/latitude and took one argument of the current longitude/latitude. The function called the haversine formula to calculate the distance between the two points or zero. I called this function in my tracking function every time the users position changed and added it to a variable to get a total distance. The total distance variable was displayed on my Walking screen beside the timer, see screenshot two posts above for example. 
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/trackingfeaturecommits.jpg)
+
+Above is evidence of me using Gitlab to push code to my feature 1 branch for tracking with some code of the distance calculations as well. I committed over 10 times for one feature at small separate stages to break up my code so I could easily revert to a commit that was functioning in-case new code created errors. Doing this made it easy to step through my code to find and solve bugs when they occurred.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/mergeintomaster3.jpg)
+
+Screenshot above is evidence of keeping our Testing branch and master branches seperate. This merge request was filed on the day our sprint finished and assigned to Grayson to review code and submit the merge.
+
+<br/><br/>
+<br/><br/>
+
+**Helping Project #1 Students:**
+
+The project #1 students didn't require any help from me this sprint although I did step through the my current position code with one student as he was going to implement it into his project next sprint.
+
+<br/><br/>
+<br/><br/>
+
+**Reflections:**
+
+I believe I had a good pace throughout this whole sprint completing mulitple tickets and adding the most complex feature so far to Taking Steps. A aspect that I think we should improve on is testing of the application as we are yet to run Taking Steps on a iPhone device. We can use expo to do this but it may take some time creating a seperate port of the app to test specifily on iPhone but it needs to be done in the future some time soon. I also think we should set the duration of our sprints too two weeks as it makes a even start and finish date.
 
 
 

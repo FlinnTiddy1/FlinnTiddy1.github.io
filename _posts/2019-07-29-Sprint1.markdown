@@ -9,6 +9,8 @@ categories: sprints
 
 **Author: Flinn Tiddy**
 
+**Sprint Number: #1**
+
 **Sprint length: 1 Week**
 
 Picking up Taking steps from semester one will be a lot of work as we didn’t make as near as much progress, I would have liked but am looking forward to the challenge. Straight away we had a meeting with Grayson our project manager. We sorted out what has priority and what needs to get done ASAP as we want this application completely finished and uploaded to both app stores by the end of the year.
