@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sprint #5 -2 Week Length"
-date:   2019-08-15 22:26:40 +1200
+date:   2019-09-09 22:26:40 +1200
 categories: sprints
 ---
 
