@@ -12,3 +12,7 @@ categories: sprints
 **Sprint Number: #5**
 
 **Sprint length: 2 Weeks**
+
+This sprint we have decided to up the length to two weeks, this allows us to keep a cycle having our sprints finish and start on monday's.
+
+We staretd the sprint with a meeting with Grayson & Adon seeing where how we are progressing and talking about our current functionality. They both seemed happy with our current work and Adon had some more features that he wanted added to our project. Adon wanted the statistics page changed to a home page instead, wanted to be able to edit the weight of the user easily within the home page too. We also had a read over Leons equalations that are to be implemented into the app to give the user statistics on carbs, fat and calories burnt. I decided this is a 
