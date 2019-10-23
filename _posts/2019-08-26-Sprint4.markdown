@@ -57,3 +57,55 @@ Above is the displayed result after the caluclations are completed, I used a web
 
 ![](/assets/feature21commits.jpg)
 ![](/assets/feature21doc.jpg)
+
+Screenshots above is evidence of my performing git lab version control and keeping my tickets up to date with their current progress to allow my team mate to know where I stand. Also example of the feature branching, that gets merged into testing before the sprint is finished.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/feature22doc.jpg)
+
+Since Taking Steps is a fitness and weight loss application Adon thought it would be a good idea to implement a easy way to update the users weight via the home screen. This is important as the users weight is used in Leons formulas to calculate the statistics.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/updatemethod.jpg)
+
+Above is the code method snippet I used to update the firebase user value for weight. Firebase for react native has inbuilt add and update methods which made this a easy process. I pulled the current state value that is set by a TextInput and read it into "WeightValue" I then used a alert to log out the result if it was successful.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/updateweight.jpg) | ![](/assets/realvalues.jpg) | ![](/assets/numpad.jpg) | ![](/assets/updatingvalue.jpg) 
+
+I sectioned off around 35% off the top of the home screen and began creating the layout for the update weight feature. I stick with the theme of yellow, grey and white. I created a title to welcome the user that pulls the variable "FirstNameValue" from the currently logged user from firebase. Below that I added a TextInput and a button in a row. I created the place holder value of the TextInput as the users currrent weight and wired up the button to run my update method from eailer. I set the keyboard layout for the textinput to NUMPAD as I only wanted a number input. The last screen is example of my debugging with a alert to test if the method if correctly fired.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/feature23doc.jpg)
+
+My final ticket was to add a additional sign up page asking for extra details from the user. This was a straight forward process as I re used the first sign up pages and altered the layout very slighlty.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/signup2screen.jpg)
+
+I created textinput fields for date of birth, height, weight and gender. I created new fields in firebase to store this information and used the update firebase database method to add to the DB. The confirm signup button redirects to the home screen of the application. 
+
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/sprintmergerequest.jpg)
+
+On the final day of the sprint I once again filed a merge request to keep our master branch up to date with a stable version of the app with the latest features. I assigned Grayson to this and he approved it shortly after reviewing the code.
+
+<br/><br/>
+<br/><br/>
+
+**Reflections:**
+
+As our first two week sprint I thought this was a great success as I completed plenty of tickets that added core functionality to the application. I think my new sign up page could be improved by creating a date picker and a drop down for DOB field and gender, I will work on this in a future sprint. My next goal will be to use real data with the algorithms and display the users last activity statistics on the screen. I believe we should also start looking into publishing our app to the google play store and creating a iOS version.
