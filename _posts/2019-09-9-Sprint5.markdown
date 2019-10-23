@@ -12,3 +12,39 @@ categories: sprints
 **Sprint Number: #5**
 
 **Sprint length: 2 Weeks**
+
+Sprint 5 is the final sprint before the 2 week break in the middle of semester of no classes. As per usual Joon and I had a meeting discussing the work we plan on doing this sprint. I wanted to get alot done this sprint so after holidays it would be a period of cleaning up our code and app to be ready to be presented on the Google Play Store and more importantly to Leon our client.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/startingtickets.jpg)
+
+I choose to expand on my work from the previous sprint and continue to develop with Leons alogrithms as they are a core aspect of Taking Steps. I deciced I would create a "Last Activity Statistics" section on the home page of our app below the update weight section. This would take the users last activity whenever that be a walk or run and feed all the information such as distance, time and more into the equalations along with the users personal details like weight, height and age. The results would be displayed onto the home screen and automatically update everytime a new activity was completed. I also decided to work on validation for my new sign up page and also on the edit weight input on the home screen.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/feature26.jpg)
+
+Validation Needing Implemented: 
+
+* Weight Update - Number Only.
+* DOB Field Sign Up - YYYY-MM-DD Must be in exact format and be a real date.
+* Height Field Sign Up - Number Only.
+* Weight Field Sign Up - Number Only.
+* Gender Field Sign Up - Male, male, M, m or Female, female, F, f.
+
+Validation checking must be inforced on all these fields to stop using input fake or inncorrect information that could ruin their experience in the application. Feedback will need to be provided to the user via styling or alerts or both.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/validationaddedtomethod.jpg)
+
+Here I expanded upon my update weight method I created last sprint, I added a seperate validation check to ensure the users inputs a interger and nothing else. If the check passes it enters the update statement sending the new weight to firebase, if validation fails a alert box is displayed to the user letting them know they failed and need to try again.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/weightborder.jpg) | ![](/assets/weightvalidation.jpg)

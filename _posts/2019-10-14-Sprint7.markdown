@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Sprint #7 - 2 Week Length"
+date:   2019-10-14 22:26:40 +1200
+categories: sprints
+---
+
+**Project #2: Taking Steps**
+
+**Author: Flinn Tiddy**
+
+**Sprint Number: #7**
+
+**Sprint length: 2 Weeks**
