@@ -63,3 +63,24 @@ I continued the same styling of validation onto the extra sign up page. This has
 
 ![](/assets/feature25.jpg)
 
+I thought this feature was a excellent idea as it gave the user a quick snapshot of their most recent efforts which they could be proud of or could make them want to improve on their previous activity. To complete this ticktet I needed to gather up multiple different variables these included: 
+
+* Users weight at time of activity.
+* Exercise Time / Activity Time.
+* Users age calculated from DOB.
+* Users gender.
+* Users height.
+* Users BPM for activity.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/agecalc.jpg)
+
+I used npm to quickly install a new react native package to help my caluclate the age of the user due to the data being saved in YYYY-MM-DD format in firebase. The algorithm requied the age of the user in a normal format such as "21". This proves one of the benefits of using react native as I could quickly source a library from a third party to sovle this problem with zero hassle.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/didmount.jpg)
+![](/assets/lastactmath.jpg)
