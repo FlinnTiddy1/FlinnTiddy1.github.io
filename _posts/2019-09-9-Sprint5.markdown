@@ -48,3 +48,18 @@ Here I expanded upon my update weight method I created last sprint, I added a se
 <br/><br/>
 
 ![](/assets/weightborder.jpg) | ![](/assets/weightvalidation.jpg)
+
+Above is a example of failing the validation check on the update weight section by using a string instead of a number. I created a seperate styling for the TextInput that I used to switch to with a tenary statement when the check fails. It creates a red border around the component in hope of helping the user realize where they have failed. The alert box also appears with more details to help educate the user on what they did wrong and how to fix their mistake. 
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/extraborder.jpg) | ![](/assets/extraalert.jpg)
+
+I continued the same styling of validation onto the extra sign up page. This has now made my user feedback consistant throughout the application as it is now on three seperate pages. The same red border appears over the TextInput fails validation and the associated alert dialog appears instructing the user what format of information needed. In a future sprint less validation will be needed as I plan to replace the loose textinputs with dropdowns to better control the users inputs.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/feature25.jpg)
+
