@@ -55,4 +55,5 @@ Above is the displayed result after the caluclations are completed, I used a web
 <br/><br/>
 <br/><br/>
 
-![](/assets/feature21commits.jpg) | ![](/assets/feature21doc.jpg)
+![](/assets/feature21commits.jpg)
+![](/assets/feature21doc.jpg)
