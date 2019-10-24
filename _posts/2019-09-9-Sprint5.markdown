@@ -84,3 +84,27 @@ I used npm to quickly install a new react native package to help my caluclate th
 
 ![](/assets/didmount.jpg)
 ![](/assets/lastactmath.jpg)
+
+Above is two screenshots of the code responsible for calculating the last activity statistics. The code pulls weight, height and date of birth of the currently loggined in user into variables and sets their state. I then query firebase again pulling the most recent entry into "/activities" by using a limit to last to ensure its the newest record. I use the lasttimer field from the most recent activity but need to dividie it by 60000 to get it into decimal format due to it currently being in milliseconds. Weight and Height are also pulled from firebase. I then use the age calculator library to get the age from DOB of the user and set it into another const. The last step of this method is to set the state of calories, carbs and fat by using Leons algorithms. I had issues with implementing this feature because setState had a delay I didnt know about which was making the last statistics data display one activity behind.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/calc.jpg)
+
+Above is the screenshot of the calculations being displayed on the home screen. I need to work on the design of this next sprint but for now the core functionality is there and the results are accurate as I once again used a python complier and logged in to firebase to find and to test the values. I decided I will add a lifetime statistics section on the home page also.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/mergerequest.jpg)
+![](/assets/Milestone.jpg)
+
+I improved upon my merge requests by adding the new features being added to the master branch to help Grayson understand the work I have completed for the sprint. Above is also proof of us using milestones to divide up tickets and get a good record of my progression. Grayson is once again assigned to this merge request to approve as he is acting as code review.
+
+<br/><br/>
+<br/><br/>
+
+**Reflections:**
+
+In my opinion this was a successful sprint from myself again adding a core feature to the application. Home screen needs some desgin work I plan to do over the holiday break. One of the final features to implement will be the goals system that we will start work on when class resumes. I believe a day, week and month goal system will be the best fit for Taking Steps. I've began to notice a few different bugs through the application that will need to be ironed out before we release to the public. I believe my team work and communication has been very good as I'm letting Joon know my progress on all tickets and asking if he needs any help on his own features.  
