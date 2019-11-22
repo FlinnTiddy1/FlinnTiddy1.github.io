@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Sprint #8 - 1.5 Week Length"
+date:   2019-10-31 22:26:40 +1200
+categories: sprints
+---
+
+**Project #2: Taking Steps**
+
+**Author: Flinn Tiddy**
+
+**Sprint Number: #8**
+
+**Sprint length: 1.5 Weeks**
