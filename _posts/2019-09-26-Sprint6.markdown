@@ -22,3 +22,8 @@ that also need to be done. I wouldn't have many weeks after holidays to improve 
 ![](/assets/feature27.jpg)
 
 Last sprint I completed a main ticket of intergrating Leons alogrithms to our application. I now need to work on the design of the home page as its extermely lacking. My plan is to section the page into 3 sections. Firstly a update weight section that I already created, secondly a last statistics section that displays all caluclated data on the last activity back to the user. Thirdy a life time statistics section that pulls values from firebase to displays the total amount of steps, distance, time and more.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/before.jpg) | ![](/assets/progress.jpg) | ![](/assets/realdata.jpg)
