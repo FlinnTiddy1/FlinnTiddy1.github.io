@@ -40,7 +40,52 @@ Here i'm creating default values for life statistics on account creation for whe
 <br/><br/>
 <br/><br/>
 
-![](/assets/updatingtotalcode.jpg)
+![](/assets/updatingtotalcode.jpg)<br>
 ![](/assets/currentotalcode.jpg)
 
 Here are two code snippets of showing the updating and getting of current life time statistics. The first screenshot is pulling the current life statistics for example "LifeTimeTime: 500" and adding the newly recorded statistics to it, "LifeTimeTime 500 + activityTime 200" and being stored back into firebase. The second screenshot is pulling the current life time stats and parsing them through int to be displayed on the home screen.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/Feature29.jpg)
+
+Another keyboard avoiding view to add, this time on the first sign up page. Will follow the same process as previous avoidingview tickets.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/avoidingsignup1.jpg)
+
+Proof of avoiding view added to the first sign up page on Taking Steps, tested on the smaller android phone supplied to me by Otago Polytechnic for testing and development purposes.
+
+<br/><br/>
+<br/><br/>
+
+
+![](/assets/feature12.jpg)
+
+To avoid as much failed user input as possible I decided to test adding a dropdown box to one of the sign up fields within the sign up process. If this worked well I would roll out this fix to as many inputs as I can to avoid the user typing when they don't need to, too improve UX.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/feature12.jpg)
+
+To avoid as much failed user input as possible I decided to test adding a dropdown box to one of the sign up fields within the sign up process. If this worked well I would roll out this fix to as many inputs as I can to avoid the user typing when they don't need to, too improve UX.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/package.jpg)<br>
+![](/assets/pickercode.jpg)
+
+I was unsure if react native offered a android solution for a dropdown menu or a select menu, I did some research and didnt seem to find anything inbuilt that came with react native. This resulted in my heading over to npm to find a package that would suit my needs. I ended up going with "react-native-picker-select" due to its weekly downloads being so high I amused it was the best fit and it has good documentation along with it.
+Above is the code I used to add the add the picker straight into my sign up form. One benefit from this package is it offered iOS plus android styles and allowed for auto detection of the OS.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/old.jpg) | ![](/assets/withoutpop.jpg) | ![](/assets/withpop.jpg)
+
+Above you can see the sign up page without and with the new react native picker select component both being disable and enabled. Overall I think this added to the design of the application and plan to change more inputs in the future to make it a more enjoyable user experience.
