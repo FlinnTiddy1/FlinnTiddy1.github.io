@@ -26,4 +26,41 @@ Last sprint I completed a main ticket of intergrating Leons alogrithms to our ap
 <br/><br/>
 <br/><br/>
 
+![](/assets/timerformatter package.jpg) | ![](/assets/rounding.jpg)
+
+I used re used the time formatter package I previously installed for the activity page to be able to format raw milliseconds format into HH:MM:SS for the home screen. I also rounded all of the calculated statistics using the .ToFixed() method to give it 3 decimal points instead of 20+.
+
+<br/><br/>
+<br/><br/>
+
+
 ![](/assets/before.jpg) | ![](/assets/progress.jpg) | ![](/assets/realdata.jpg)
+
+Above you can see the progression I made when designing the home screen of the application. I developed using precentages to ensure flex would work for all differently sized phones as the android market varies extremely. 
+I used the align row styling to get the data to display evenly. I believe skills Ive learnt from taking multimedia this semester became a advantage when coming to design Taking Steps as I understand more UI concepts than before.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/testing.jpg)
+
+Above is a screenshot of testing my new user interface on a smaller sized android phone to ensure the layout doesn't break due to less pixels. The UI passed the test.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/feature30.jpg)
+
+Currently our firebase system is lacking information for indiviudal activity which makes it impossbile to display data on last activity. I'll need to edit my code inside the Walking.JS page and save steps, distance and more per activity.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/oldfire.jpg) | ![](/assets/newfire.jpg)
+
+Above is the old and new firebase schema for individual activities, this allows me to display steps, distance and more onto the home screen of the app giving the user a better idea of their most recent progress.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/feature28.jpg)
