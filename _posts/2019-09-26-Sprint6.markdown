@@ -64,3 +64,28 @@ Above is the old and new firebase schema for individual activities, this allows 
 <br/><br/>
 
 ![](/assets/feature28.jpg)
+
+Another small feature / bug fix was fixing compbalitiy with smaller sized screens, the keyboard that pops up covers multiple fields making it hard for the user to see what they are typing.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/beforeavoiding.jpg) | ![](/assets/afteravoiding.jpg)
+
+The problem is shown in the first screenshot above where the user cannot see the password field text input. Second screen is the feature add / bug solved by adding a keyboardavoidingview to the layout of the login screen. 
+AvoidingView simply replaces the standard view and uses padding to push everything up.
+
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/allticketcommits.jpg) | ![](/assets/megrequest.jpg)
+
+Screenshots above is proof all of using version control throughout my development of all three tickets and using seperate branches. I created a merge request and assigned it to Grayson to approve at the end of the sprint and detailed the new features that have been added. Adding these details is a good way for Grayson to keep up to speed with my progress and Taking Steps progress in my opinion. Joon didn't merge any own his own work or branches into sprint 6's request.
+
+<br/><br/>
+<br/><br/>
+
+**Reflections:**
+
+Overall it was a successful sprint as I completed three features during my holidays/break, Once class starts back I will need to focus on documenting all our the application for the readme file and begin work on the goals page aswell. Lifetime statistics will also need some development as currently its only displaying dummy data. Firebase will need to be updated with new fields to hold this data for each user. Talking daily with Joon about the project keeps me on track with our progression and the scrums on Mondays and Thursday are always a good way to hear how the other groups are doing.
