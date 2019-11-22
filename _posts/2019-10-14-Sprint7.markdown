@@ -70,13 +70,6 @@ To avoid as much failed user input as possible I decided to test adding a dropdo
 <br/><br/>
 <br/><br/>
 
-![](/assets/feature12.jpg)
-
-To avoid as much failed user input as possible I decided to test adding a dropdown box to one of the sign up fields within the sign up process. If this worked well I would roll out this fix to as many inputs as I can to avoid the user typing when they don't need to, too improve UX.
-
-<br/><br/>
-<br/><br/>
-
 ![](/assets/package.jpg)<br>
 ![](/assets/pickercode.jpg)
 
