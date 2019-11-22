@@ -12,3 +12,35 @@ categories: sprints
 **Sprint Number: #7**
 
 **Sprint length: 2 Weeks**
+
+Planning sprint 7 was the first time Jono and I have had meeting in person for a couple of weeks due to our holiday break. We started with sorting out where the app currently is and what we need to do to reach our 
+goal of finishing the before the semester ends. Joon said he was going to do the goals page, resulting in me picking out multiple medium sized tickets to solve within the two week sprint. I decided on doing "Feature 31 - Record & display lifetime duration & distance statistics", "Feature 29 - AvoidingView Signup Page#1" and "Feature 12 - Change gender field to a dropdown component".
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/feature31.jpg)
+
+Very similar to displaying the last statistics data but none of the fields are set up in firebase yet. Need create life time data object for each user within firebase on the first activity method. Then after each activity need to pull the current life time statistics and append the new values too it. Then save back into firebase and load it onto the home screen to display back to the user. 
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/setlife.jpg)
+
+Here I'm creating default values for life statistics on account creation for when I go to update them their existing. This also gives the home page some data to display now.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/setlife.jpg) | ![](/assets/firebaselifetime.jpg)
+
+Here i'm creating default values for life statistics on account creation for when I go to update them their existing. This also gives the home page some data to display now. Second sceenshot is from our firebase real time database displaying the new fields.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/updatingtotalcode.jpg)
+![](/assets/currentotalcode.jpg)
+
+Here are two code snippets of showing the updating and getting of current life time statistics. The first screenshot is pulling the current life statistics for example "LifeTimeTime: 500" and adding the newly recorded statistics to it, "LifeTimeTime 500 + activityTime 200" and being stored back into firebase. The second screenshot is pulling the current life time stats and parsing them through int to be displayed on the home screen.

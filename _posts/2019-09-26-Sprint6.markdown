@@ -11,7 +11,7 @@ categories: sprints
 
 **Sprint Number: #6**
 
-**Sprint length: 2 Weeks**
+**Sprint length: 2 Weeks Holidays**
 
 Sprint 6 was over the holidays which mean't it was up to me to decide how much work needed to get done. I decided this was going to be a clean up sprint, picking up tickets / features that were releatively small but 
 that also need to be done. I wouldn't have many weeks after holidays to improve Taking Steps so every sprint counted. I'm making sure I keep up communication with Joon and maintaining my code management by creating branches for new feautres, creating milestones to repersent sprints and doing merge requests after every sprint from our testing branch to master.
