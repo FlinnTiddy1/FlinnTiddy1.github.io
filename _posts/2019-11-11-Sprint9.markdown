@@ -29,5 +29,27 @@ Uploading a application to google play is a length process but needed to be done
 
 ![](/assets/graphics.jpg)<br>
 ![](/assets/playstore.jpg)<br>
-![](/assets/policy.jpg)<br>
+![](/assets/policy.jpg)
 
+Above is a example of the graphical banner I made to be displayed on the google play store, it had to be a certain width and height within the google play store spec. I also wrote up the descriptions that describe the purpose and functions of the application. 8 screenshots were uploaded aswell of our login, home, signup, activity, settings, goals screens. Google requries app developers to create privacy policys for their applications if they requrie access to special permissions such as location tracking / gps tracking. I used a privacy policy generator to create the policy and listed all the data we record and our intended purposes with the information. 
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/release.jpg)
+
+Above is the screen of the published 1.0 released version of Taking Steps. I had to do some research on how to generate signed APK's through react native as I hadn't had any experience in it expect for android studio java APKs. After finding a good medium article I produced the APK and upload it to my store listing, the application was live within hours and I had a few people with android phones download it for some testing. Peoples play testing found some errors that I needed to fix.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/Patch1.1.jpg)
+
+After my testing found errors, I created a new branch and began fixing up all the bugs. These included incorrect styling for about us and clear data pages. Clear data function wasn't working correctly and the application logo wasn't displaying properly on the home screen of android phones.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/oldabout.jpg) | ![](/assets/aboutusupdate.jpg)<br>
+![](/assets/cleardata.jpg) | ![](/assets/cleardataupdate.jpg)<br>
+![](/assets/androidlogo.jpg) | ![](/assets/logoa.jpg)
