@@ -12,3 +12,26 @@ categories: sprints
 **Sprint Number: #8**
 
 **Sprint length: 1.5 Weeks**
+
+As sprint 8 starts we are only 3 weeks away from the end of semester which is being to become crunch time for Taking Steps. Adon is still waiting on a reply
+from Leon about setting up a time to come in and view Taking Steps. This gives us more time to polish the application before he looks at it. This sprints length was reduced
+by me to only a week and half to make it easy to plan out our work all the way to the end of the semester. This mean't we will now have 2 more final sprints both 1.5 in length.
+Documentation is a important part of project and this sprint I decided I would complete all of the info about Taking Steps by completing the readme with detailed notes on each page
+and the features they included. The settings page was also lacking in design which would be something I would improve this sprint. The tickets I will work on are feature 32 and 34.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/feature32.jpg)
+
+We had old documentation on our GitLab repo but was lacking in detail, screenshots and overall information about Taking Steps. I gave it a complete refresher with new screenshots, detailed explainations on pages, listed
+technologies and core features. I also included links to app stores were you could download the app for future reference.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/exampleofdoc.jpg)
+
+Above is a screenshot example of the updated README documentation.<br>
+[Link To Documentation](https://gitlab.op-bit.nz/BIT/Project/Mobile-Development/taking-steps/blob/master/README.md)
+
