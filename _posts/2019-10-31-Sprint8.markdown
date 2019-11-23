@@ -49,5 +49,6 @@ My second ticket on the sprint was to update the settings page to fit the new de
 
 ![](/assets/oldsettings.jpg) | ![](/assets/withouticons.jpg) | ![](/assets/newsettings.jpg)
 
-Above you can see the design progression of the settings page, first image is of the settings page not edit or update. I used consistent design princples 
+Above you can see the design progression of the settings page, first image is of the settings page not edit or update. Second image without icons and third the final design. I try to keep my design consistent with the other screens inside my application 
+
 
