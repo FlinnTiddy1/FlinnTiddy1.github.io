@@ -17,7 +17,7 @@ As sprint 8 starts we are only 3 weeks away from the end of semester which is be
 from Leon about setting up a time to come in and view Taking Steps. This gives us more time to polish the application before he looks at it. This sprints length was reduced
 by me to only a week and half to make it easy to plan out our work all the way to the end of the semester. This mean't we will now have 2 more final sprints both 1.5 in length.
 Documentation is a important part of project and this sprint I decided I would complete all of the info about Taking Steps by completing the readme with detailed notes on each page
-and the features they included. The settings page was also lacking in design which would be something I would improve this sprint. The tickets I will work on are feature 32 and 34.<Br>
+and the features they included. The settings page was also lacking in design which would be something I would improve this sprint. The tickets I will work on are feature 32 and 34.<Br><br>
 [Link To Documentation](https://gitlab.op-bit.nz/BIT/Project/Mobile-Development/taking-steps/blob/master/README.md)
 
 <br/><br/>
@@ -25,7 +25,7 @@ and the features they included. The settings page was also lacking in design whi
 
 ![](/assets/feature32.jpg)
 
-We had old documentation on our GitLab repo but was lacking in detail, screenshots and overall information about Taking Steps. I gave it a complete refresher with new screenshots, detailed explainations on pages, listed
+We had old documentation on our GitLab repo but was lacking in detail, screenshots and overall information about Taking Steps. I gave it a complete refresher with new screenshots, detailed explanations on pages, listed
 technologies and core features. I also included links to app stores were you could download the app for future reference.
 
 <br/><br/>
@@ -49,7 +49,7 @@ My second ticket on the sprint was to update the settings page to fit the new de
 
 ![](/assets/oldsettings.jpg) | ![](/assets/withouticons.jpg) | ![](/assets/newsettings.jpg)
 
-Above you can see the design progression of the settings page, first image is of the settings page not edit or update. Second image without icons and third the final design. I tried to keep my design consistent with the other screens inside my application by consitent use of colours and design features such as the grey borders and title headers. I continued to use material design icons to keep to my design plan.
+Above you can see the design progression of the settings page, first image is of the settings page not edit or update. Second image without icons and third the final design. I tried to keep my design consistent with the other screens inside my application by consistent use of colours and design features such as the grey borders and title headers. I continued to use material design icons to keep to my design plan.
 
 <br/><br/>
 <br/><br/>
@@ -64,6 +64,6 @@ Merge request submitted to Grayson to review new tickets added to the app. Merge
 **Reflections:**
 
 Overall successful short sprint from me in my opinion as I completed one of the main tasks needed for project 2. Documentation is important to help the user or lectures understand how the application functions and gives
-better insight into how we went about developing the app with certain technologies and practices. Documentation is also important is studnets next year were to take over Taking Steps and expand upon the current application, for example when Joon and I took over Taking Steps detailed documentation was lacking and we found it hard to get a good understanding for the app.
+better insight into how we went about developing the app with certain technologies and practices. Documentation is also important if students next year were to take over Taking Steps and expand upon the current application, for example when Joon and I took over Taking Steps detailed documentation was lacking and we found it hard to get a good understanding for the app.
 
 

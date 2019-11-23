@@ -30,7 +30,7 @@ Proof of stand up Mobile Team meeting.
 
 ![](/assets/Googleplay.jpg)
 
-Uploading a application to google play is a length process but needed to be done before the end of the sprint. Google requires pieces of documentation like, short description, long description, logo to certain size, banner,privacy policy, screenshots and more. I also needed to go through and remove all the debugging features such as showing alerts for checking if certain functions had triggered. Spelling mistakes were also riddled throughout the app which needed to be fixed asap. We also needed update our logo as I had sourced this one as a dummy logo and did not have permission to publish with it.
+Uploading a application to google play is a length process but needed to be done before the end of the sprint. Google requires pieces of documentation like, short description, long description, logo to certain size, banner, privacy policy, screenshots and more. I also needed to go through and remove all the debugging features such as showing alerts for checking if certain functions had triggered. Spelling mistakes were also riddled throughout the app which needed to be fixed asap. We also needed update our logo as I had sourced this one as a dummy logo and did not have permission to publish with it.
 
 <br/><br/>
 <br/><br/>
@@ -39,7 +39,7 @@ Uploading a application to google play is a length process but needed to be done
 ![](/assets/playstore.jpg)<br>
 ![](/assets/policy.jpg)
 
-Above is a example of the graphical banner I made to be displayed on the google play store, it had to be a certain width and height within the google play store spec. I also wrote up the descriptions that describe the purpose and functions of the application. 8 screenshots were uploaded aswell of our login, home, signup, activity, settings, goals screens. Google requries app developers to create privacy policys for their applications if they requrie access to special permissions such as location tracking / gps tracking. I used a privacy policy generator to create the policy and listed all the data we record and our intended purposes with the information. 
+Above is a example of the graphical banner I made to be displayed on the google play store, it had to be a certain width and height within the google play store spec. I also wrote up the descriptions that describe the purpose and functions of the application. 8 screenshots were uploaded aswell of our login, home, signup, activity, settings, goals screens. Google requires app developers to create privacy policys for their applications if they require access to special permissions such as location tracking / gps tracking. I used a privacy policy generator to create the policy and listed all the data we record and our intended purposes with the information. 
 
 <br/><br/>
 <br/><br/>
@@ -60,7 +60,7 @@ After my testing found errors, I created a new branch and began fixing up all th
 
 ![](/assets/oldabout.jpg) | ![](/assets/aboutusupdate.jpg)
 
-The first pair of screenshots is the old and new about us page that I changed the design for. It was very important to me to keep the design consistent and attractive through the application. I included information for Joona and I, also information on otago polytechnic and the project 2 mobile team.
+The first pair of screenshots is the old and new about us page that I changed the design for. It was very important to me to keep the design consistent and attractive through the application. I included information for Joon and I, also information on otago polytechnic and the project 2 mobile team.
 
 <br><br>
 <br><br>
@@ -74,7 +74,7 @@ The second set of screenshots is the old and updated versions of clear data page
 
 ![](/assets/androidlogo.jpg) | ![](/assets/logoa.jpg)
 
- The final set of screenshots is creating the application logo to be displayed on the home screen of android photos. This required me to generate mutliple different sized logos due to the varies screen sizes in the mobile phone market. I included a example of the logo being displayed.
+ The final set of screenshots is creating the application logo to be displayed on the home screen of android photos. This required me to generate multiple different sized logos due to the varies screen sizes in the mobile phone market. I included a example of the logo being displayed.
 
 <br/><br/>
 <br/><br/>
@@ -88,6 +88,6 @@ I generated another APK and incremented the version number and version code to p
 
 **Reflections:**
 
-As the final sprint came to a end I reflected on this semesters work compared to last. This semester I put a lot of effort in and completed every task I set out to do. I consistently had very successful sprints completing at minmum three - four tickets to get Taking Steps finished in time. I think having daily scrums and weekly standups really helped keep me on track with the end goal in mind. Using GitLabs board system also became a massive advantage to me as I could easily keep track of the teams and my progress throughout the semester. I believe my design skills learn't though multimedia helped Taking Steps take on a fresh new look compared to the pervious version of the application. Overall I'm very happy with my performance and the produce we have produced.<Br><BR>
+As the final sprint came to a end I reflected on this semesters work compared to last. This semester I put a lot of effort in and completed every task I set out to do. I consistently had very successful sprints completing at minimum three - four tickets to get Taking Steps finished in time. I think having daily scrums and weekly standups really helped keep me on track with the end goal in mind. Using GitLabs board system also became a massive advantage to me as I could easily keep track of the teams and my progress throughout the semester. I believe my design skills learn't though multimedia helped Taking Steps take on a fresh new look compared to the pervious version of the application. Overall I'm very happy with my performance and the produce we have produced.<Br><BR>
 
 [Link To Taking Steps Google Play Store](https://play.google.com/store/apps/details?id=com.takingsteps&hl=en%5Bhttps://play.google.com/store/apps/details?id=com.takingsteps&hl=en%5D(url))

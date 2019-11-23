@@ -13,15 +13,15 @@ categories: sprints
 
 **Sprint length: 2 Weeks Holidays**
 
-Sprint 6 was over the holidays which mean't it was up to me to decide how much work needed to get done. I decided this was going to be a clean up sprint, picking up tickets / features that were releatively small but 
-that also need to be done. I wouldn't have many weeks after holidays to improve Taking Steps so every sprint counted. I'm making sure I keep up communication with Joon and maintaining my code management by creating branches for new feautres, creating milestones to repersent sprints and doing merge requests after every sprint from our testing branch to master.
+Sprint 6 was over the holidays which mean't it was up to me to decide how much work needed to get done. I decided this was going to be a clean up sprint, picking up tickets / features that were relatively small but 
+that also need to be done. I wouldn't have many weeks after holidays to improve Taking Steps so every sprint counted. I'm making sure I keep up communication with Joon and maintaining my code management by creating branches for new features, creating milestones to represent sprints and doing merge requests after every sprint from our testing branch to master.
 
 <br/><br/>
 <br/><br/>
 
 ![](/assets/feature27.jpg)
 
-Last sprint I completed a main ticket of intergrating Leons alogrithms to our application. I now need to work on the design of the home page as its extermely lacking. My plan is to section the page into 3 sections. Firstly a update weight section that I already created, secondly a last statistics section that displays all caluclated data on the last activity back to the user. Thirdy a life time statistics section that pulls values from firebase to displays the total amount of steps, distance, time and more.
+Last sprint I completed a main ticket of intergrating Leons algorithms to our application. I now need to work on the design of the home page as its extremely lacking. My plan is to section the page into 3 sections. Firstly a update weight section that I already created, secondly a last statistics section that displays all calculated data on the last activity back to the user. Thirdy a life time statistics section that pulls values from firebase to displays the total amount of steps, distance, time and more.
 
 <br/><br/>
 <br/><br/>
@@ -36,7 +36,7 @@ I used re used the time formatter package I previously installed for the activit
 
 ![](/assets/before.jpg) | ![](/assets/progress.jpg) | ![](/assets/realdata.jpg)
 
-Above you can see the progression I made when designing the home screen of the application. I developed using precentages to ensure flex would work for all differently sized phones as the android market varies extremely. 
+Above you can see the progression I made when designing the home screen of the application. I developed using percentages to ensure flex would work for all differently sized phones as the android market varies extremely. 
 I used the align row styling to get the data to display evenly. I believe skills Ive learnt from taking multimedia this semester became a advantage when coming to design Taking Steps as I understand more UI concepts than before.
 
 <br/><br/>
@@ -51,7 +51,7 @@ Above is a screenshot of testing my new user interface on a smaller sized androi
 
 ![](/assets/feature30.jpg)
 
-Currently our firebase system is lacking information for indiviudal activity which makes it impossbile to display data on last activity. I'll need to edit my code inside the Walking.JS page and save steps, distance and more per activity.
+Currently our firebase system is lacking information for individual activity which makes it impossible to display data on last activity. I'll need to edit my code inside the Walking.JS page and save steps, distance and more per activity.
 
 <br/><br/>
 <br/><br/>
@@ -65,7 +65,7 @@ Above is the old and new firebase schema for individual activities, this allows 
 
 ![](/assets/feature28.jpg)
 
-Another small feature / bug fix was fixing compbalitiy with smaller sized screens, the keyboard that pops up covers multiple fields making it hard for the user to see what they are typing.
+Another small feature / bug fix was fixing compatibility with smaller sized screens, the keyboard that pops up covers multiple fields making it hard for the user to see what they are typing.
 
 <br/><br/>
 <br/><br/>
@@ -81,7 +81,7 @@ AvoidingView simply replaces the standard view and uses padding to push everythi
 
 ![](/assets/allticketcommits.jpg) | ![](/assets/megrequest.jpg)
 
-Screenshots above is proof all of using version control throughout my development of all three tickets and using seperate branches. I created a merge request and assigned it to Grayson to approve at the end of the sprint and detailed the new features that have been added. Adding these details is a good way for Grayson to keep up to speed with my progress and Taking Steps progress in my opinion. Joon didn't merge any own his own work or branches into sprint 6's request.
+Screenshots above is proof all of using version control throughout my development of all three tickets and using separate branches. I created a merge request and assigned it to Grayson to approve at the end of the sprint and detailed the new features that have been added. Adding these details is a good way for Grayson to keep up to speed with my progress and Taking Steps progress in my opinion. Joon didn't merge any own his own work or branches into sprint 6's request.
 
 <br/><br/>
 <br/><br/>

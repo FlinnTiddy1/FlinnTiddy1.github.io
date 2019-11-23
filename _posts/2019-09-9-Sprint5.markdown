@@ -27,7 +27,7 @@ Proof of stand up Mobile Team meeting.
 
 ![](/assets/startingtickets.jpg)
 
-I choose to expand on my work from the previous sprint and continue to develop with Leons alogrithms as they are a core aspect of Taking Steps. I deciced I would create a "Last Activity Statistics" section on the home page of our app below the update weight section. This would take the users last activity whenever that be a walk or run and feed all the information such as distance, time and more into the equalations along with the users personal details like weight, height and age. The results would be displayed onto the home screen and automatically update everytime a new activity was completed. I also decided to work on validation for my new sign up page and also on the edit weight input on the home screen.
+I choose to expand on my work from the previous sprint and continue to develop with Leons algorithms as they are a core aspect of Taking Steps. I decided I would create a "Last Activity Statistics" section on the home page of our app below the update weight section. This would take the users last activity whenever that be a walk or run and feed all the information such as distance, time and more into the equations along with the users personal details like weight, height and age. The results would be displayed onto the home screen and automatically update everytime a new activity was completed. I also decided to work on validation for my new sign up page and also on the edit weight input on the home screen.
 
 <br/><br/>
 <br/><br/>
@@ -42,21 +42,21 @@ Validation Needing Implemented:
 * Weight Field Sign Up - Number Only.
 * Gender Field Sign Up - Male, male, M, m or Female, female, F, f.
 
-Validation checking must be inforced on all these fields to stop using input fake or inncorrect information that could ruin their experience in the application. Feedback will need to be provided to the user via styling or alerts or both.
+Validation checking must be enforced on all these fields to stop using input fake or incorrect information that could ruin their experience in the application. Feedback will need to be provided to the user via styling or alerts or both.
 
 <br/><br/>
 <br/><br/>
 
 ![](/assets/validationaddedtomethod.jpg)
 
-Here I expanded upon my update weight method I created last sprint, I added a seperate validation check to ensure the users inputs a interger and nothing else. If the check passes it enters the update statement sending the new weight to firebase, if validation fails a alert box is displayed to the user letting them know they failed and need to try again.
+Here I expanded upon my update weight method I created last sprint, I added a separate validation check to ensure the users inputs a interger and nothing else. If the check passes it enters the update statement sending the new weight to firebase, if validation fails a alert box is displayed to the user letting them know they failed and need to try again.
 
 <br/><br/>
 <br/><br/>
 
 ![](/assets/weightborder.jpg) | ![](/assets/weightvalidation.jpg)
 
-Above is a example of failing the validation check on the update weight section by using a string instead of a number. I created a seperate styling for the TextInput that I used to switch to with a tenary statement when the check fails. It creates a red border around the component in hope of helping the user realize where they have failed. The alert box also appears with more details to help educate the user on what they did wrong and how to fix their mistake. 
+Above is a example of failing the validation check on the update weight section by using a string instead of a number. I created a separate styling for the TextInput that I used to switch to with a tenary statement when the check fails. It creates a red border around the component in hope of helping the user realize where they have failed. The alert box also appears with more details to help educate the user on what they did wrong and how to fix their mistake. 
 
 <br/><br/>
 <br/><br/>
@@ -70,7 +70,7 @@ I continued the same styling of validation onto the extra sign up page. This has
 
 ![](/assets/feature25.jpg)
 
-I thought this feature was a excellent idea as it gave the user a quick snapshot of their most recent efforts which they could be proud of or could make them want to improve on their previous activity. To complete this ticktet I needed to gather up multiple different variables these included: 
+I thought this feature was a excellent idea as it gave the user a quick snapshot of their most recent efforts which they could be proud of or could make them want to improve on their previous activity. To complete this ticket I needed to gather up multiple different variables these included: 
 
 * Users weight at time of activity.
 * Exercise Time / Activity Time.
@@ -114,4 +114,4 @@ I improved upon my merge requests by adding the new features being added to the 
 
 **Reflections:**
 
-In my opinion this was a successful sprint from myself again adding a core feature to the application. Home screen needs some desgin work I plan to do over the holiday break. One of the final features to implement will be the goals system that we will start work on when class resumes. I believe a day, week and month goal system will be the best fit for Taking Steps. I've began to notice a few different bugs through the application that will need to be ironed out before we release to the public. I believe my team work and communication has been very good as I'm letting Joon know my progress on all tickets and asking if he needs any help on his own features.  
+In my opinion this was a successful sprint from myself again adding a core feature to the application. Home screen needs some design work I plan to do over the holiday break. One of the final features to implement will be the goals system that we will start work on when class resumes. I believe a day, week and month goal system will be the best fit for Taking Steps. I've began to notice a few different bugs through the application that will need to be ironed out before we release to the public. I believe my team work and communication has been very good as I'm letting Joon know my progress on all tickets and asking if he needs any help on his own features.  

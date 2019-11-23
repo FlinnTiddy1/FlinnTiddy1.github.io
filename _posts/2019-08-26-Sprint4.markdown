@@ -15,7 +15,7 @@ categories: sprints
 
 This sprint we have decided to up the length to two weeks, this allows us to keep a cycle having our sprints finish and start on monday's.
 
-We started the sprint with a meeting with Grayson & Adon seeing where how we are progressing and talking about our current functionality. They both seemed happy with our current work and Adon had some more features that he wanted added to our project. Adon wanted the statistics page changed to a home page instead, wanted to be able to edit the weight of the user easily within the home page too. Instead of a edit details page in the settings section have a second sign up screen where the user could add their weight, height, age and gender was requested by Adon also. We also had a read over Leons equalations that are to be implemented into the app to give the user statistics on carbs, fat and calories burnt. I decided this was a high priority issue to complete as it relates to the core functionality of the project.
+We started the sprint with a meeting with Grayson & Adon seeing where how we are progressing and talking about our current functionality. They both seemed happy with our current work and Adon had some more features that he wanted added to our project. Adon wanted the statistics page changed to a home page instead, wanted to be able to edit the weight of the user easily within the home page too. Instead of a edit details page in the settings section have a second sign up screen where the user could add their weight, height, age and gender was requested by Adon also. We also had a read over Leons equations that are to be implemented into the app to give the user statistics on carbs, fat and calories burnt. I decided this was a high priority issue to complete as it relates to the core functionality of the project.
 
 <br/><br/>
 <br/><br/>
@@ -43,14 +43,14 @@ Above is the supplied algorithms in a python file with hardcoded/dummy user valu
 
 ![](/assets/reactmath.jpg)
 
-I refactored the code slightly by placing the values into states and placed it inside the componentWillMount to ensure the calculations were completed before being rendered. I delcared height, gender, weight etc values below my imports.
+I refactored the code slightly by placing the values into states and placed it inside the componentWillMount to ensure the calculations were completed before being rendered. I declared height, gender, weight etc values below my imports.
 
 <br/><br/>
 <br/><br/>
 
 ![](/assets/mathdisplayed.jpg)
 
-Above is the displayed result after the caluclations are completed, I used a web browser python complier to compare the results to ensure the calculations were accurate. I did these tests multiple times with different variable values. I questioned Adon about the Beats per minute variable and he said not to worry about it at this stage as Joon and I are not sure how to measure this from the user.
+Above is the displayed result after the calculations are completed, I used a web browser python complier to compare the results to ensure the calculations were accurate. I did these tests multiple times with different variable values. I questioned Adon about the Beats per minute variable and he said not to worry about it at this stage as Joon and I are not sure how to measure this from the user.
 
 <br/><br/>
 <br/><br/>

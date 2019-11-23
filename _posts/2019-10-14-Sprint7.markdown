@@ -96,6 +96,6 @@ Above you can see the sign up page without and with the new react native picker 
 
 **Reflections:**
 
-In my opinion this was another successful sprint from myself, workflow was followed as planned, I completed all my set tickets, used merge request, developed on a seperate ticket specific branches and more. I spoke with Adon about sorting out a time for Leon to come in and view our progess on Taking Steps. He said he would email him and let me know whats happening. I think we are on track to finishing this application before the end of semester.
+In my opinion this was another successful sprint from myself, workflow was followed as planned, I completed all my set tickets, used merge request, developed on a separate ticket specific branches and more. I spoke with Adon about sorting out a time for Leon to come in and view our progress on Taking Steps. He said he would email him and let me know whats happening. I think we are on track to finishing this application before the end of semester.
 
 
