@@ -49,6 +49,21 @@ My second ticket on the sprint was to update the settings page to fit the new de
 
 ![](/assets/oldsettings.jpg) | ![](/assets/withouticons.jpg) | ![](/assets/newsettings.jpg)
 
-Above you can see the design progression of the settings page, first image is of the settings page not edit or update. Second image without icons and third the final design. I try to keep my design consistent with the other screens inside my application 
+Above you can see the design progression of the settings page, first image is of the settings page not edit or update. Second image without icons and third the final design. I tried to keep my design consistent with the other screens inside my application by consitent use of colours and design features such as the grey borders and title headers. I continued to use material design icons to keep to my design plan.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/mergerequest8.jpg)
+
+Merge request submitted to Grayson to review new tickets added to the app. Merge included the new ReadMe File with 1800 words and the updated settings page design.
+
+<br/><br/>
+<br/><br/>
+
+**Reflections:**
+
+Overall successful short sprint from me in my opinion as I completed one of the main tasks needed for project 2. Documentation is important to help the user or lectures understand how the application functions and gives
+better insight into how we went about developing the app with certain technologies and practices. Documentation is also important is studnets next year were to take over Taking Steps and expand upon the current application, for example when Joon and I took over Taking Steps detailed documentation was lacking and we found it hard to get a good understanding for the app.
 
 

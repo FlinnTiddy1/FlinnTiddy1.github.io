@@ -12,3 +12,22 @@ categories: sprints
 **Sprint Number: #9**
 
 **Sprint length: 1.5 Weeks**
+
+Sprint 9 is the very last sprint of project 2 and for Taking Steps. Once again this sprint is a week and a half in length which should be enough time to get the application polished up and onto
+the google play store for people to finally download and use. Adon and Grayson are still yet to hear back from Leon about setting up a meeting which is unfortunate but I'm sure Adon can show him what we produced
+at a later date maybe some time next month or year. To list a app to the google play store you need multiple pieces of specific documentation which I will work on this week along side cleaning up the code and bugs.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/Googleplay.jpg)
+
+Uploading a application to google play is a length process but needed to be done before the end of the sprint. Google requires pieces of documentation like, short description, long description, logo to certain size, banner,privacy policy, screenshots and more. I also needed to go through and remove all the debugging features such as showing alerts for checking if certain functions had triggered. Spelling mistakes were also riddled throughout the app which needed to be fixed asap. We also needed update our logo as I had sourced this one as a dummy logo and did not have permission to publish with it.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/graphics.jpg)<br>
+![](/assets/playstore.jpg)<br>
+![](/assets/policy.jpg)<br>
+
