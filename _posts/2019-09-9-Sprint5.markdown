@@ -18,6 +18,13 @@ Sprint 5 is the final sprint before the 2 week break in the middle of semester o
 <br/><br/>
 <br/><br/>
 
+![](/assets/standup3.jpg)
+
+Proof of stand up Mobile Team meeting.
+
+<br/><br/>
+<br/><br/>
+
 ![](/assets/startingtickets.jpg)
 
 I choose to expand on my work from the previous sprint and continue to develop with Leons alogrithms as they are a core aspect of Taking Steps. I deciced I would create a "Last Activity Statistics" section on the home page of our app below the update weight section. This would take the users last activity whenever that be a walk or run and feed all the information such as distance, time and more into the equalations along with the users personal details like weight, height and age. The results would be displayed onto the home screen and automatically update everytime a new activity was completed. I also decided to work on validation for my new sign up page and also on the edit weight input on the home screen.

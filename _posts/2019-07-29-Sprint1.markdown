@@ -29,6 +29,13 @@ As a Project two student I will be helping out the new members to the mobile pro
 <br/><br/>
 <br/><br/>
 
+![](/assets/standup1.jpg)
+
+Proof of stand up Mobile Team meeting.
+
+<br/><br/>
+<br/><br/>
+
 ![](/assets/week1_2.JPG)
 
 This semester will be using gitlabs inbuilt issue system compared to project #1 where a trello board was used instead. This screenshot displays sprint #1’s tickets and multiple other tickets we have created to be completed in the future. Personally, I think gitlab as a much better approach compared to trello as Adon and Grayson can easily keep track of how we are progressing as well. 

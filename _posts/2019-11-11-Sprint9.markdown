@@ -15,7 +15,15 @@ categories: sprints
 
 Sprint 9 is the very last sprint of project 2 and for Taking Steps. Once again this sprint is a week and a half in length which should be enough time to get the application polished up and onto
 the google play store for people to finally download and use. Adon and Grayson are still yet to hear back from Leon about setting up a meeting which is unfortunate but I'm sure Adon can show him what we produced
-at a later date maybe some time next month or year. To list a app to the google play store you need multiple pieces of specific documentation which I will work on this week along side cleaning up the code and bugs.
+at a later date maybe some time next month or year. To list a app to the google play store you need multiple pieces of specific documentation which I will work on this week along side cleaning up the code and bugs.<br><br>
+[Link To Taking Steps Google Play Store](https://play.google.com/store/apps/details?id=com.takingsteps&hl=en%5Bhttps://play.google.com/store/apps/details?id=com.takingsteps&hl=en%5D(url))
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/standup5.jpg)
+
+Proof of stand up Mobile Team meeting.
 
 <br/><br/>
 <br/><br/>
@@ -50,6 +58,36 @@ After my testing found errors, I created a new branch and began fixing up all th
 <br/><br/>
 <br/><br/>
 
-![](/assets/oldabout.jpg) | ![](/assets/aboutusupdate.jpg)<br>
-![](/assets/cleardata.jpg) | ![](/assets/cleardataupdate.jpg)<br>
+![](/assets/oldabout.jpg) | ![](/assets/aboutusupdate.jpg)
+
+The first pair of screenshots is the old and new about us page that I changed the design for. It was very important to me to keep the design consistent and attractive through the application. I included information for Joona and I, also information on otago polytechnic and the project 2 mobile team.
+
+<br><br>
+<br><br>
+
+![](/assets/cleardata.jpg) | ![](/assets/cleardataupdate.jpg)
+
+The second set of screenshots is the old and updated versions of clear data pages. I once again updated the colours and layout but also changed the function behind the button as it was reseting all the users data causing the application to break. I changed the clear data function to just set the firebase life time statistics back to zero instead of all of the users details including email, password etc.
+
+<br><br>
+<Br><br>
+
 ![](/assets/androidlogo.jpg) | ![](/assets/logoa.jpg)
+
+ The final set of screenshots is creating the application logo to be displayed on the home screen of android photos. This required me to generate mutliple different sized logos due to the varies screen sizes in the mobile phone market. I included a example of the logo being displayed.
+
+<br/><br/>
+<br/><br/>
+
+![](/assets/Patch1.1.jpg)
+
+I generated another APK and incremented the version number and version code to patch "1.1" and uploaded it to the google play store again. I had the same people who found my bugs test again and had them use the application without any problems which was very pleasing to hear. This was the final task of Project 2 Taking Steps and was very happy to get everything completed within time.
+
+<br><br>
+<Br><br>
+
+**Reflections:**
+
+As the final sprint came to a end I reflected on this semesters work compared to last. This semester I put a lot of effort in and completed every task I set out to do. I consistently had very successful sprints completing at minmum three - four tickets to get Taking Steps finished in time. I think having daily scrums and weekly standups really helped keep me on track with the end goal in mind. Using GitLabs board system also became a massive advantage to me as I could easily keep track of the teams and my progress throughout the semester. I believe my design skills learn't though multimedia helped Taking Steps take on a fresh new look compared to the pervious version of the application. Overall I'm very happy with my performance and the produce we have produced.<Br><BR>
+
+[Link To Taking Steps Google Play Store](https://play.google.com/store/apps/details?id=com.takingsteps&hl=en%5Bhttps://play.google.com/store/apps/details?id=com.takingsteps&hl=en%5D(url))

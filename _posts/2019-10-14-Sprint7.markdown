@@ -19,6 +19,13 @@ goal of finishing the before the semester ends. Joon said he was going to do the
 <br/><br/>
 <br/><br/>
 
+![](/assets/standup4.jpg)
+
+Proof of stand up Mobile Team meeting.
+
+<br/><br/>
+<br/><br/>
+
 ![](/assets/feature31.jpg)
 
 Very similar to displaying the last statistics data but none of the fields are set up in firebase yet. Need create life time data object for each user within firebase on the first activity method. Then after each activity need to pull the current life time statistics and append the new values too it. Then save back into firebase and load it onto the home screen to display back to the user. 

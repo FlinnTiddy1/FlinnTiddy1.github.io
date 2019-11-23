@@ -22,6 +22,13 @@ I choose a total of 3 tickets to complete with the main one being getting tracki
 <br/><br/>
 <br/><br/>
 
+![](/assets/standup2.jpg)
+
+Proof of stand up Mobile Team meeting.
+
+<br/><br/>
+<br/><br/>
+
 ![](/assets/board3.jpg)
 
 This sprints tickets for myself are features 1, 15 and 16 with Feature 1 being the most complex.

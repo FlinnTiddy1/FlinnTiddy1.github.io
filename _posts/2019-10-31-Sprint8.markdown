@@ -33,7 +33,7 @@ technologies and core features. I also included links to app stores were you cou
 
 ![](/assets/exampleofdoc.jpg)
 
-Above is a screenshot example of the updated README documentation.<br>
+Above is a screenshot example of the updated README documentation.<br><br><br>
 [Link To Documentation](https://gitlab.op-bit.nz/BIT/Project/Mobile-Development/taking-steps/blob/master/README.md)<br>
 [Link To Documentation](https://gitlab.op-bit.nz/BIT/Project/Mobile-Development/taking-steps/blob/master/README.md)
 
